@@ -1,1 +1,6 @@
 # Reference_Web
+Spring处理自动装配歧义:
+Option 1: 在定义bean时，可以通过@Primary指定一个优先级高的bean来消除自动装配过程中遇到的歧义问题。
+Option 2: @Qualifier注解可以跟@Autowired或@Inject一起使用，指定被注入的bean的ID。
+https://www.tianmaying.com/tutorial/spring-autowiring-conflict
+================================================================
